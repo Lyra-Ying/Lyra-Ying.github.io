@@ -33,6 +33,10 @@ I am an undergraduate student at Xiamen University. My research focuses on build
 - **2026.06** 🎉 Won the 2nd Prize, China Collegiate Computing Design Competition, Fujian Division.
 - **2025.11** 🎉 Won the 2nd Prize, Challenge Cup Extracurricular Academic Science and Technology Works Competition, Fujian Province.
 
+## Blog
+
+Coming soon. I will share notes and reflections on my research directions, including LLM agents, epistemic knowledge graphs, RAG, and 3D generative vision.
+
 ## Educations
 
 - **2023.09 - Present:** B.Eng. student, [School of Informatics](https://informatics.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/).
