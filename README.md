@@ -16,13 +16,10 @@
 ## About Me
 
 - **Name:** Lyra (&#21016;&#28386;)
-- **Undergraduate:** Artificial Intelligence, [Xiamen University](https://www.xmu.edu.cn/)
-- **Affiliation:** On-site research intern at [MAC Lab](https://mac.xmu.edu.cn/), Xiamen University, for one and a half years
+- **Undergraduate:** Artificial Intelligence, [School of Informatics](https://informatics.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/)
 - **Political status:** Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)
 - **Research:** Knowledge-enhanced LLMs, low-hallucination scientific writing agents, epistemic knowledge graphs, and retrieval-augmented generation
-- **Research Experience:** Led the development of a scientific writing agent and designed a tri-level epistemic graph framework for survey synthesis at MAC Lab.
-- **Additional Experience:** 3D vision and generative reconstruction for cross-modal knowledge grounding.
-- **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05.
+- **Additional background:** 3D vision and generative reconstruction for cross-modal knowledge grounding
 
 ## Education
 
