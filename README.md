@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>AI Undergraduate @ <a href="https://www.xmu.edu.cn/">Xiamen University</a></strong><br/>
-  3D Vision | Generative Reconstruction | Scientific LLM Agents
+  Knowledge Graphs | NLP | LLM Agents
 </p>
 
 <p align="center">
@@ -19,7 +19,9 @@
 - **Undergraduate:** Artificial Intelligence, [Xiamen University](https://www.xmu.edu.cn/)
 - **Affiliation:** On-site research intern at [MAC Lab](https://mac.xmu.edu.cn/), Xiamen University, for one and a half years
 - **Political status:** Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)
-- **Research:** 3D Gaussian Splatting, NeRF-style reconstruction, generative 3D editing, and LLM agents for scientific writing
+- **Research:** Knowledge-enhanced LLMs, low-hallucination scientific writing agents, epistemic knowledge graphs, and retrieval-augmented generation
+- **Research Experience:** Led the development of a scientific writing agent and designed a tri-level epistemic graph framework for survey synthesis at MAC Lab.
+- **Additional Experience:** 3D vision and generative reconstruction for cross-modal knowledge grounding.
 - **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05.
 
 ## Education
@@ -29,10 +31,17 @@
 
 ## Research Interests
 
-- **3D Vision:** 3D Gaussian Splatting, NeRF, multi-view generation, fast 3D scene editing, cultural heritage reconstruction.
-- **LLM Agents:** scientific writing agents, RAG, GraphRAG, ToG/ToG 2.0, tool calling, task planning.
-- **Knowledge Modeling:** tri-level epistemic graphs, hypergraphs, argument graph construction, entropy-based controversy quantification.
-- **Controllable Generation:** Stable Diffusion restoration, multi-view image inpainting, Depth Anything alignment, cross-view consistency.
+- **Knowledge Graphs & Epistemic Modeling:** tri-level epistemic graphs, multi-granular knowledge extraction, argumentative relation mining, and information-theoretic evaluation for low-hallucination survey synthesis.
+- **LLM Agents for Scientific Research:** scientific writing agents, tool-augmented reasoning, code-to-paper automation, multi-modal research workflows, and task planning for academic tasks.
+- **3D Vision & Cross-Modal Generation:** 3D Gaussian Splatting, multi-view reconstruction, cultural heritage restoration, and cross-modal alignment to ground knowledge graphs in visual data.
+
+## Selected Research Manuscripts
+
+**From Code to Paper: An Author-Guided Agent and Benchmark for Method Drafting and Figure Generation**  
+Manuscript under review. Contributed to the author-guided agent framework, AuthorMarkers intermediate representation, intent-code alignment, benchmark construction, and multi-dimensional evaluation.
+
+**TEG: Tri-Level Epistemic Graphs for Survey Synthesis**  
+Manuscript under review. Worked on epistemic graph modeling, multi-granularity argument extraction, relation reasoning, and entropy-based controversy quantification for low-hallucination survey synthesis.
 
 ## Skills
 
