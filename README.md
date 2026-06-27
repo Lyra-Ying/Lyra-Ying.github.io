@@ -84,13 +84,20 @@ Led algorithm optimization, simulation experiments, and radio map modeling.
 Research climbing program, participant, 2025.04-2027.04.  
 Focused on fast and consistent 3D Gaussian editing for cultural heritage restoration.
 
-## Awards
+## Awards and Honors
 
-- Provincial First Prize, China Undergraduate Mathematical Contest in Modeling, 2025.12.
-- Provincial Second Prize, Challenge Cup Fujian Academic and Technological Works Competition, 2025.11.
-- Provincial First Prize, Huawei ICT Competition Practice Track, 2024.12.
-- Gold Award, Baotai Cup Xiamen University Innovation Competition, 2025.08.
-- Outstanding Merit Student, Xiamen University, 2024.09.
+**2026**
+- Provincial Second Prize, China Collegiate Computing Design Competition, Fujian Division.
+
+**2025**
+- Provincial Second Prize, Challenge Cup Extracurricular Academic Science and Technology Works Competition, Fujian Province.
+- Provincial First Prize, China Undergraduate Mathematical Contest in Modeling.
+- Gold Award, Baotai Cup Xiamen University Student Innovation Competition.
+- Outstanding Student Cadre, Xiamen University.
+- Outstanding Merit Student, Xiamen University.
+
+**2024**
+- Provincial First Prize, Huawei ICT Competition Practice Track, Fujian Province.
 
 ## GitHub Stats
 
