@@ -15,10 +15,12 @@
 
 ## About Me
 
+I am an undergraduate researcher at Xiamen University. My research focuses on building trustworthy, knowledge-enhanced AI systems, with particular interests in LLM Agents, scientific discovery agents, epistemic graph reasoning, and 3D generative vision.
+
 - **Name:** Lyra (&#21016;&#28386;)
 - **Undergraduate:** Artificial Intelligence, [School of Informatics](https://informatics.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/)
 - **Political status:** Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)
-- **My Research Focus:** Knowledge-Enhanced LLMs, Epistemic Graphs, Scientific Agents, RAG, AutoSurvey, 3D Generative Reconstruction
+- **My Research Focus:** Trustworthy Artificial Intelligence, Agentic AI Systems, Knowledge-Augmented Large Language Models, Scientific Discovery Agents, Graph-based Reasoning, 3D Generative Vision
 
 ## News
 
