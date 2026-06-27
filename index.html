@@ -107,6 +107,24 @@
       margin-top: 22px;
     }
 
+    .facts {
+      display: grid;
+      gap: 8px;
+      margin: 0 0 18px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .facts li {
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .facts strong {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
     .button {
       border: 1px solid var(--line);
       border-radius: 6px;
@@ -194,8 +212,12 @@
       <img class="profile" src="./liuying.jpg" alt="Lyra profile photo">
       <section>
         <h1>Lyra (&#21016;&#28386;)</h1>
-        <p>I am an undergraduate student majoring in <strong>Artificial Intelligence</strong> at <a href="https://www.xmu.edu.cn/">Xiamen University</a> and a <strong>Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)</strong>. My research focuses on <strong>3D Gaussian Splatting</strong>, <strong>NeRF-style reconstruction</strong>, <strong>generative 3D editing</strong>, and <strong>LLM agents for scientific writing</strong>.</p>
-        <p>I have spent one and a half years as an on-site research intern at <a href="https://mac.xmu.edu.cn/">MAC Lab</a>, <a href="https://www.xmu.edu.cn/">Xiamen University</a>, working on 3D vision, generative reconstruction, and LLM-agent research.</p>
+        <ul class="facts">
+          <li><strong>Undergraduate:</strong> Artificial Intelligence, <a href="https://www.xmu.edu.cn/">Xiamen University</a></li>
+          <li><strong>Affiliation:</strong> On-site research intern at <a href="https://mac.xmu.edu.cn/">MAC Lab</a>, Xiamen University, for one and a half years</li>
+          <li><strong>Political status:</strong> Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)</li>
+          <li><strong>Research:</strong> 3D Gaussian Splatting, NeRF-style reconstruction, generative 3D editing, and LLM agents for scientific writing</li>
+        </ul>
         <div class="links">
           <a class="button" href="https://github.com/Lyra-Ying">GitHub</a>
           <a class="button" href="mailto:liuying07@stu.xmu.edu.cn">Email</a>
