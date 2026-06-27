@@ -39,8 +39,8 @@ I love AI and quiet late-night research.
 
 ## Research Interests
 
-- **Knowledge Graphs & Epistemic Modeling:** tri-level epistemic graphs, multi-granular knowledge extraction, argumentative relation mining, and information-theoretic evaluation for low-hallucination survey synthesis.
-- **LLM Agents for Scientific Research:** scientific writing agents, tool-augmented reasoning, code-to-paper automation, multi-modal research workflows, and task planning for academic tasks.
+- **Knowledge Graphs & Epistemic Modeling:** tri-level epistemic graphs, multi-granular knowledge extraction, argument relation mining, and information-theoretic evaluation for low-hallucination survey synthesis.
+- **LLM Agents for Scientific Research:** scientific writing agents, tool-augmented reasoning, code-to-paper automation, multi-modal research workflows, and academic task planning.
 - **3D Vision & Cross-Modal Generation:** 3D Gaussian Splatting, multi-view reconstruction, cultural heritage restoration, and cross-modal alignment to ground knowledge graphs in visual data.
 
 ## Research Timeline
