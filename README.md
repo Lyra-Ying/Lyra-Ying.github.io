@@ -1,7 +1,7 @@
 <h1 align="center">Lyra's Homepage</h1>
 
 <p align="center">
-  <strong>AI Undergraduate @ Xiamen University</strong><br/>
+  <strong>AI Undergraduate @ <a href="https://www.xmu.edu.cn/">Xiamen University</a></strong><br/>
   3D Vision | Generative Reconstruction | Scientific LLM Agents
 </p>
 
@@ -15,9 +15,9 @@
 
 ## About Me
 
-I am **Lyra (&#21016;&#28386;)**, an undergraduate student majoring in **Artificial Intelligence** at **Xiamen University**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
+I am **Lyra (&#21016;&#28386;)**, an undergraduate student majoring in **Artificial Intelligence** at **[Xiamen University](https://www.xmu.edu.cn/)**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
 
-- I have spent **one and a half years as an on-site research intern** at the [MAC Lab, Xiamen University](https://mac.xmu.edu.cn/), working on 3D vision, generative reconstruction, and LLM-agent research.
+- I have spent **one and a half years as an on-site research intern** at [MAC Lab](https://mac.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/), working on 3D vision, generative reconstruction, and LLM-agent research.
 - **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05.
 
 ## Research Interests
