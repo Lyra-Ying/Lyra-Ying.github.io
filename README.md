@@ -22,6 +22,12 @@ I am an undergraduate researcher at Xiamen University. My research focuses on bu
 - **Political status:** Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)
 - **My Research Focus:** Trustworthy Artificial Intelligence, Agentic AI Systems, Knowledge-Augmented Large Language Models, Scientific Discovery Agents, Graph-based Reasoning, 3D Generative Vision
 
+## Research Mood
+
+<img align="right" src="./cat-typing.gif" width="170" alt="Cat typing animation" />
+
+I love AI and quiet late-night research.
+
 ## News
 
 - **2026.06** 🎉 Won the 2nd Prize, Fujian Division, China Collegiate Computing Design Competition.
