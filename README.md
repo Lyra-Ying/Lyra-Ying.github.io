@@ -62,31 +62,6 @@ Collected, cleaned and standardized legal corpus to provide high-quality data fo
 ### 2024.06 - 2025.06 | XMU LDK NLP & LLM Research Group
 **Keywords:** RAG, Knowledge Graph, Cross-Modal 3D Vision  
 Laid theoretical foundation of retrieval reasoning, epistemic modeling and fundamental 3D reconstruction techniques.
-## Projects
-
-**Vmamba-based 3D Restoration of Ancient Architectural Paintings**  
-National Undergraduate Innovation Project, core member, 2024.09-2026.04.  
-Built toward heritage structure reconstruction and restoration, leading to the 3D reconstruction manuscript under revision.
-
-**Dual-Graph Enhanced Interactive LLM System for Low-Hallucination Long-Form Writing**  
-National Undergraduate Innovation Project, core member, 2024.10-2026.04.  
-Supported TEG-based survey synthesis, graph-guided reasoning, and long-form academic writing.
-
-**President's Fund Extension Project in Low-Hallucination Scientific Writing**  
-Participant, 2025.03-2027.03.  
-Extended graph-enhanced writing and knowledge modeling research.
-
-**Legal Multimodal Intelligent QA Assistant**  
-University innovation training project, participant, 2024.07-2026.07.  
-Worked on legal data cleaning and domain-specific large-model data support.
-
-**LLM-Assisted Radiation Source Localization and Radio Map Construction**  
-University innovation training project, project leader, 2024.07-2026.04.  
-Led algorithm optimization, simulation experiments, and radio map modeling.
-
-**FastGS-based Digital Restoration of Minnan Heritage Paintings**  
-Research climbing program, participant, 2025.04-2027.04.  
-Focused on fast and consistent 3D Gaussian editing for cultural heritage restoration.
 
 ## Awards and Honors
 
