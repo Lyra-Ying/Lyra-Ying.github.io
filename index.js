@@ -53,19 +53,19 @@ I love AI and quiet late-night research.
 **Keywords:** Scientific Agent, Code-Text Alignment, Multimodal Paper Generation  
 Led full framework design of Code-to-Paper agent, proposed AuthorMarkers; co-first author (2nd) of NeurIPS 2026 submission and finished survey on generative world models.
 
-### 2025.01 - 2026.04 | National Undergraduate Innovation Project, NLP
+### 2025.01 - 2026.04 | National Undergraduate Innovation Project, NLP, MAC Lab
 **Keywords:** TEG Hypergraph, Low-Hallucination Survey, GraphRAG  
 Built tri-level epistemic graph framework, designed entropy-driven argument quantification; third author of PPSN 2026 paper with full ablation studies.
 
-### 2024.12 - 2026.04 | National Undergraduate Innovation Project, 3D Vision
+### 2024.12 - 2026.04 | National Undergraduate Innovation Project, 3D Vision, MAC Lab
 **Keywords:** 3DGS Restoration, Multi-View Optimization, Cultural Heritage  
 Proposed dual-branch painting restoration pipeline; second author of revision manuscript and co-first author of ACM MM 2026 3D editing paper with validated metric gains.
 
-### 2024.07 - 2026.07 | University Project 1: LLM Radio Localization
+### 2024.07 - 2025.07 | LLM Radio Localization
 **Keywords:** LLM-Aided Simulation, Radio Map Modeling  
 Served as project lead, optimized localization algorithms and completed end-to-end simulation and map construction.
 
-### 2024.07 - 2026.07 | University Project 2: Legal Multimodal QA
+### 2024.07 - 2025.07 | Legal Multimodal QA
 **Keywords:** Vertical Domain Dataset, LLM Data Preparation  
 Collected, cleaned and standardized legal corpus to provide high-quality data for domain multimodal LLMs.
 
