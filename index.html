@@ -209,6 +209,21 @@
       font-weight: 600;
     }
 
+    .vision {
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 26px;
+      align-items: center;
+    }
+
+    .vision-gif {
+      width: 220px;
+      max-width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
     .meta {
       margin-bottom: 8px;
       color: #475569;
@@ -240,6 +255,10 @@
       }
 
       .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .vision {
         grid-template-columns: 1fr;
       }
 
@@ -396,6 +415,19 @@
       <ul>
         <li>Huawei ICT Competition Practice Track, Fujian Province, 1st Prize.</li>
       </ul>
+    </section>
+
+    <section class="section">
+      <h2>Future Research Vision</h2>
+      <div class="vision">
+        <div>
+          <p>I have long held a deep passion for computer science, a romantic field that constructs interpretable and reliable intelligence through mathematics, logic, and algorithms. I am captivated by rigorous logical reasoning within epistemic knowledge graphs, as well as the whole-process automation of academic research brought by scientific LLM agents.</p>
+          <p>My long-term research plan centers on trustworthy large language models, epistemic knowledge modeling, and low-hallucination scientific agents, while taking 3D generative reconstruction as a cross-modal auxiliary branch to support multi-scenario knowledge application.</p>
+          <p>I sincerely look forward to connecting with like-minded peers who are passionate about academic exploration. Whether your research focuses on NLP, knowledge graphs, multi-modal foundation models, or 3D vision, I am always ready for in-depth academic communication and collaborative exploration.</p>
+          <p>Just as Lyra, the Lyra constellation, chases the starlight, I keep pursuing reliable and interpretable AI research.</p>
+        </div>
+        <img class="vision-gif" src="./coderman.gif" alt="Coding animation">
+      </div>
     </section>
   </div>
 </body>
