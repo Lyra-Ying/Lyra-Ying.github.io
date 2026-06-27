@@ -26,7 +26,8 @@ const readme = `<h1 align="center">Lyra&#65288;&#21016;&#28386;&#65289;&#20010;&
 
 <img align="right" src="./cat-typing.gif" width="85" alt="Cat typing animation" />
 
-I love AI and quiet late-night research.
+I love AI and quiet late-night research,  
+just as Lyra chases the starlight.
 
 I am an undergraduate researcher at Xiamen University. My research focuses on building trustworthy, knowledge-enhanced AI systems, with particular interests in LLM Agents, scientific discovery agents, epistemic graph reasoning, and 3D generative vision.
 
