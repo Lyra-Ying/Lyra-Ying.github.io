@@ -11,7 +11,7 @@
   <img src="https://komarev.com/ghpvc/?username=Lyra-Ying&style=flat-square&color=blue" alt="Profile views"/>
 </p>
 
-<img align="right" src="https://avatars.githubusercontent.com/Lyra-Ying" width="210" alt="Lyra profile photo"/>
+<img align="right" src="./liuying.jpg" width="210" alt="Lyra profile photo"/>
 
 ## About Me
 
