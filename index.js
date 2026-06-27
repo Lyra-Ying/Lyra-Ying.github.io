@@ -17,10 +17,15 @@ const readme = `<h1 align="center">Lyra&#65288;&#21016;&#28386;&#65289;&#20010;&
 
 ## About Me
 
-I am **Lyra (&#21016;&#28386;)**, an undergraduate student majoring in **Artificial Intelligence** at **[Xiamen University](https://www.xmu.edu.cn/)**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
+I am **Lyra (&#21016;&#28386;)**, an undergraduate student majoring in **Artificial Intelligence** at **[Xiamen University](https://www.xmu.edu.cn/)** and a **Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
 
 - I have spent **one and a half years as an on-site research intern** at [MAC Lab](https://mac.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/), working on 3D vision, generative reconstruction, and LLM-agent research.
 - **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05.
+
+## Education
+
+- **2023.09 - Present:** B.Eng. student, School of Informatics, [Xiamen University](https://www.xmu.edu.cn/).
+- **2020.09 - 2023.06:** Student, Anhui Dingyuan High School.
 
 ## Research Interests
 
