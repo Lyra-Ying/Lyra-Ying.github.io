@@ -88,10 +88,10 @@ Built foundational knowledge in machine learning and deep learning, with extende
 - China Undergraduate Mathematical Contest in Modeling, Fujian Province, 1st Prize.
 - Baotai Cup Xiamen University Student Innovation Competition, Gold Award.
 - Xiamen University Outstanding Student Cadre.
-- Xiamen University Outstanding Merit Student.
 
 **2024**
 - Huawei ICT Competition Practice Track, Fujian Province, 1st Prize.
+- Xiamen University Outstanding Merit Student.
 
 ## Future Research Vision
 
