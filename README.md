@@ -1,4 +1,4 @@
-<h1 align="center">Lyra's Homepage</h1>
+<h1 align="center">Lyra&#65288;&#21016;&#28386;&#65289;&#20010;&#20154;&#23398;&#26415;&#20027;&#39029;</h1>
 
 <p align="center">
   <strong>AI Undergraduate @ <a href="https://www.xmu.edu.cn/">Xiamen University</a></strong><br/>
@@ -11,7 +11,7 @@
   <img src="https://komarev.com/ghpvc/?username=Lyra-Ying&style=flat-square&color=blue" alt="Profile views"/>
 </p>
 
-<img align="right" src="./liuying.jpg" width="210" alt="Lyra profile photo"/>
+<img align="right" src="./liuying.jpg" width="210" style="border-radius: 50%;" alt="Lyra profile photo"/>
 
 ## About Me
 
