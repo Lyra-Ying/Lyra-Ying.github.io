@@ -26,7 +26,7 @@ I am an undergraduate researcher at Xiamen University. My research focuses on bu
 
 ## Research Mood
 
-<img align="right" src="./cat-typing.gif" width="170" alt="Cat typing animation" />
+<img align="right" src="./cat-typing.gif" width="85" alt="Cat typing animation" />
 
 I love AI and quiet late-night research.
 
