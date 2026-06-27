@@ -44,26 +44,6 @@ I am **Lyra (&#21016;&#28386;)**, an undergraduate student majoring in **Artific
   <img src="https://img.shields.io/badge/Visualization-16A34A?style=flat-square" alt="Visualization"/>
 </p>
 
-## Publications
-
-**From Code to Paper: An Author-Guided Agent and Benchmark for Method Drafting and Figure Generation**  
-*Co-first author, second author · NeurIPS 2026, CCF A, Under Review*  
-Designed the author-guided agent framework and AuthorMarkers intermediate representation; built intent parsing, code evidence scanning, intent-code alignment, benchmark construction, and multi-dimensional evaluation.  
-**Results:** faithfulness +0.956, figure readability +0.762, overall quality +9.4.
-
-**EGSeditor: Efficient 3D Scene Editing in 200 Seconds via Dataset-Level Multi-View Optimization**  
-*Co-first author, third author · ACM MM 2026, CCF A, Under Review*  
-Worked on experimental design, GaussCtrl/SplatFlow baseline reproduction, Tanks & Temples and DeepBlending validation sets, and multi-metric evaluation including FID, CLIP-T, cross-view consistency, and inference time.
-
-**Stable Diffusion-Enhanced 3D Gaussian Splatting for Efficient Neural Reconstruction of Chinese Heritage Structures**  
-*Second author · Major Revision, 2026*  
-Proposed transfer-style and iterative restoration strategies for large missing regions and local weathering; integrated Stable Diffusion multi-view pre-restoration with Depth Anything depth alignment.  
-**Results:** PSNR +13%, SSIM +22%, LPIPS -30%, model storage -45.6%.
-
-**TEG: Tri-Level Epistemic Graphs for Survey Synthesis**  
-*Third author · PPSN 2026, CCF B, Under Review*  
-Contributed to tri-level epistemic graph modeling, multi-granularity argument extraction, relation reasoning, and entropy-based controversy quantification for low-hallucination survey synthesis.
-
 ## Projects
 
 **Vmamba-based 3D Restoration of Ancient Architectural Paintings**  
@@ -88,7 +68,7 @@ Led algorithm optimization, simulation experiments, and radio map modeling.
 
 **FastGS-based Digital Restoration of Minnan Heritage Paintings**  
 Research climbing program, participant, 2025.04-2027.04.  
-Connected with the ACM MM EGSeditor work on fast and consistent 3D Gaussian editing.
+Focused on fast and consistent 3D Gaussian editing for cultural heritage restoration.
 
 ## Awards
 
