@@ -200,11 +200,19 @@
 
     .timeline-item {
       position: relative;
-      padding: 0 0 24px;
+      margin: 0 0 18px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcff;
+    }
+
+    .timeline-item:nth-child(even) {
+      background: #f7fbf8;
     }
 
     .timeline-item:last-child {
-      padding-bottom: 0;
+      margin-bottom: 0;
     }
 
     .timeline-item::before {
@@ -222,6 +230,22 @@
     .timeline-date {
       margin-bottom: 4px;
       color: var(--accent);
+      font-weight: 600;
+    }
+
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0;
+    }
+
+    .keyword {
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: #eaf1fb;
+      color: #214d91;
+      font-size: 13px;
       font-weight: 600;
     }
 
@@ -368,58 +392,41 @@
       <div class="timeline">
         <article class="timeline-item">
           <div class="timeline-date">2025.11 - 2026.05</div>
-          <h3>Remote Research Intern, AIDS, USTC</h3>
-          <ul>
-            <li>Led the framework design of a Code-to-Paper scientific writing agent and proposed the AuthorMarkers structured intermediate representation.</li>
-            <li>Co-first author (second author) of the manuscript From Code to Paper, submitted to NeurIPS 2026, CCF A, under review.</li>
-            <li>Completed a systematic survey on generative game world models and organized a unified evaluation perspective for the field.</li>
-            <li>Core skills: scientific agents, code-text alignment, and automated multimodal academic figure generation.</li>
-          </ul>
+          <h3>Remote Research Intern, SAIDS, USTC</h3>
+          <div class="keywords"><span class="keyword">Scientific Agent</span><span class="keyword">Code-Text Alignment</span><span class="keyword">Multimodal Paper Generation</span></div>
+          <p>Led full framework design of the Code-to-Paper agent, proposed AuthorMarkers, co-first authored a NeurIPS 2026 submission, and completed a survey on generative world models.</p>
         </article>
         <article class="timeline-item">
           <div class="timeline-date">2025.01 - 2026.04</div>
-          <h3>National Undergraduate Innovation Project, NLP Track</h3>
-          <ul>
-            <li>Core member building the TEG tri-level epistemic hypergraph framework for low-hallucination survey generation.</li>
-            <li>Led argument extraction and entropy-based controversy quantification; third author of a PPSN 2026 submission, CCF B.</li>
-            <li>Surveyed GraphRAG, ToG, and AutoSurvey methods and completed ablation validation.</li>
-          </ul>
+          <h3>National Undergraduate Innovation Project, NLP</h3>
+          <div class="keywords"><span class="keyword">TEG Hypergraph</span><span class="keyword">Low-Hallucination Survey</span><span class="keyword">GraphRAG</span></div>
+          <p>Built a tri-level epistemic graph framework, designed entropy-driven argument quantification, and contributed as third author to a PPSN 2026 submission with full ablation studies.</p>
         </article>
         <article class="timeline-item">
           <div class="timeline-date">2024.12 - 2026.04</div>
-          <h3>National Undergraduate Innovation Project, 3D Vision Track</h3>
-          <ul>
-            <li>Core member developing iterative and transfer-style restoration strategies for Minnan architectural paintings.</li>
-            <li>Second author of a heritage reconstruction manuscript under major revision; co-first author of EGSeditor, submitted to ACM MM 2026, CCF A.</li>
-            <li>Built multi-view depth alignment and FastGS editing experiments with significant quantitative improvements.</li>
-          </ul>
+          <h3>National Undergraduate Innovation Project, 3D Vision</h3>
+          <div class="keywords"><span class="keyword">3DGS Restoration</span><span class="keyword">Multi-View Optimization</span><span class="keyword">Cultural Heritage</span></div>
+          <p>Proposed a dual-branch painting restoration pipeline; second author of a revision manuscript and co-first author of an ACM MM 2026 3D editing submission with validated metric gains.</p>
         </article>
         <article class="timeline-item">
           <div class="timeline-date">2024.07 - 2026.07</div>
-          <h3>University-level Innovation Project: LLM-assisted Radio Map Construction</h3>
-          <ul>
-            <li>Project leader for LLM-assisted radiation source localization and radio map construction.</li>
-            <li>Led research planning, progress coordination, LLM-enhanced localization optimization, simulation, and map modeling.</li>
-          </ul>
+          <h3>University Project 1: LLM Radio Localization</h3>
+          <div class="keywords"><span class="keyword">LLM-Aided Simulation</span><span class="keyword">Radio Map Modeling</span></div>
+          <p>Served as project lead, optimized localization algorithms, and completed end-to-end simulation and radio map construction.</p>
         </article>
         <article class="timeline-item">
           <div class="timeline-date">2024.07 - 2026.07</div>
-          <h3>University-level Innovation Project: Legal Multimodal QA Assistant</h3>
-          <ul>
-            <li>Core member responsible for legal-domain dataset collection, cleaning, and standardization.</li>
-            <li>Provided data support for domain-specific large language model development.</li>
-          </ul>
+          <h3>University Project 2: Legal Multimodal QA</h3>
+          <div class="keywords"><span class="keyword">Vertical Domain Dataset</span><span class="keyword">LLM Data Preparation</span></div>
+          <p>Collected, cleaned, and standardized legal corpora to provide high-quality data support for domain multimodal LLMs.</p>
         </article>
         <article class="timeline-item">
           <div class="timeline-date">2024.06 - 2025.06</div>
-          <h3>Joined XMU LDK NLP & LLM Research Group</h3>
-          <ul>
-            <li>Systematically studied RAG, knowledge graphs, and large language model reasoning.</li>
-            <li>Also learned NeRF and 3D Gaussian Splatting fundamentals for later cross-modal research.</li>
-          </ul>
+          <h3>XMU LDK NLP & LLM Research Group</h3>
+          <div class="keywords"><span class="keyword">RAG</span><span class="keyword">Knowledge Graph</span><span class="keyword">Cross-Modal 3D Vision</span></div>
+          <p>Laid the theoretical foundation for retrieval reasoning, epistemic modeling, and fundamental 3D reconstruction techniques.</p>
         </article>
-      </div>
-    </section>
+      </div>    </section>
 
 
 

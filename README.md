@@ -38,37 +38,31 @@
 
 ## Research Timeline
 
-> Core research directions: LLM agents and epistemic knowledge graphs. Secondary direction: 3D Gaussian Splatting and cultural heritage reconstruction.
+> Core: LLM Agents, Epistemic Knowledge Graphs | Secondary: 3D Gaussian Splatting, Cultural Heritage Reconstruction
 
-### 2025.11 - 2026.05 | Remote Research Intern, AIDS, USTC
-- Led the framework design of a Code-to-Paper scientific writing agent and proposed the AuthorMarkers structured intermediate representation.
-- Co-first author (second author) of the manuscript *From Code to Paper*, submitted to NeurIPS 2026, CCF A, under review.
-- Completed a systematic survey on generative game world models and organized a unified evaluation perspective for the field.
-- Core skills: scientific agents, code-text alignment, and automated multimodal academic figure generation.
+### 2025.11 - 2026.05 | Remote Research Intern, SAIDS, USTC
+**Keywords:** Scientific Agent, Code-Text Alignment, Multimodal Paper Generation  
+Led full framework design of Code-to-Paper agent, proposed AuthorMarkers; co-first author (2nd) of NeurIPS 2026 submission and finished survey on generative world models.
 
-### 2025.01 - 2026.04 | National Undergraduate Innovation Project, NLP Track
-- Core member building the TEG tri-level epistemic hypergraph framework for low-hallucination survey generation.
-- Led argument extraction and entropy-based controversy quantification; third author of a PPSN 2026 submission, CCF B.
-- Surveyed GraphRAG, ToG, and AutoSurvey methods and completed ablation validation.
+### 2025.01 - 2026.04 | National Undergraduate Innovation Project, NLP
+**Keywords:** TEG Hypergraph, Low-Hallucination Survey, GraphRAG  
+Built tri-level epistemic graph framework, designed entropy-driven argument quantification; third author of PPSN 2026 paper with full ablation studies.
 
-### 2024.12 - 2026.04 | National Undergraduate Innovation Project, 3D Vision Track
-- Core member developing iterative and transfer-style restoration strategies for Minnan architectural paintings.
-- Second author of a heritage reconstruction manuscript under major revision; co-first author of *EGSeditor*, submitted to ACM MM 2026, CCF A.
-- Built multi-view depth alignment and FastGS editing experiments with significant quantitative improvements.
+### 2024.12 - 2026.04 | National Undergraduate Innovation Project, 3D Vision
+**Keywords:** 3DGS Restoration, Multi-View Optimization, Cultural Heritage  
+Proposed dual-branch painting restoration pipeline; second author of revision manuscript and co-first author of ACM MM 2026 3D editing paper with validated metric gains.
 
-### 2024.07 - 2026.07 | University-level Innovation Project: LLM-assisted Radio Map Construction
-- Project leader for LLM-assisted radiation source localization and radio map construction.
-- Led research planning, progress coordination, LLM-enhanced localization optimization, simulation, and map modeling.
+### 2024.07 - 2026.07 | University Project 1: LLM Radio Localization
+**Keywords:** LLM-Aided Simulation, Radio Map Modeling  
+Served as project lead, optimized localization algorithms and completed end-to-end simulation and map construction.
 
-### 2024.07 - 2026.07 | University-level Innovation Project: Legal Multimodal QA Assistant
-- Core member responsible for legal-domain dataset collection, cleaning, and standardization.
-- Provided data support for domain-specific large language model development.
+### 2024.07 - 2026.07 | University Project 2: Legal Multimodal QA
+**Keywords:** Vertical Domain Dataset, LLM Data Preparation  
+Collected, cleaned and standardized legal corpus to provide high-quality data for domain multimodal LLMs.
 
-### 2024.06 - 2025.06 | Joined XMU LDK NLP & LLM Research Group
-- Systematically studied RAG, knowledge graphs, and large language model reasoning.
-- Also learned NeRF and 3D Gaussian Splatting fundamentals for later cross-modal research.
-
-
+### 2024.06 - 2025.06 | XMU LDK NLP & LLM Research Group
+**Keywords:** RAG, Knowledge Graph, Cross-Modal 3D Vision  
+Laid theoretical foundation of retrieval reasoning, epistemic modeling and fundamental 3D reconstruction techniques.
 ## Projects
 
 **Vmamba-based 3D Restoration of Ancient Architectural Paintings**  
