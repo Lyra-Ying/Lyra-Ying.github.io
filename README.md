@@ -21,7 +21,11 @@
 - **Research:** Knowledge-enhanced LLMs, low-hallucination scientific writing agents, epistemic knowledge graphs, and retrieval-augmented generation
 - **Additional background:** 3D vision and generative reconstruction for cross-modal knowledge grounding
 
-## Education
+## News
+
+- **2026.06** 🎉 Won the 2nd Prize, Fujian Division, China Collegiate Computing Design Competition.
+
+## Educations
 
 - **2023.09 - Present:** B.Eng. student, [School of Informatics](https://informatics.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/).
 - **2020.09 - 2023.06:** Student, Anhui Dingyuan High School.
