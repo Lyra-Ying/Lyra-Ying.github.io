@@ -117,17 +117,17 @@ Focused on fast and consistent 3D Gaussian editing for cultural heritage restora
 ## Awards and Honors
 
 **2026**
-- Provincial Second Prize, China Collegiate Computing Design Competition, Fujian Division.
+- China Collegiate Computing Design Competition, Fujian Division, 2nd Prize.
 
 **2025**
-- Provincial Second Prize, Challenge Cup Extracurricular Academic Science and Technology Works Competition, Fujian Province.
-- Provincial First Prize, China Undergraduate Mathematical Contest in Modeling.
-- Gold Award, Baotai Cup Xiamen University Student Innovation Competition.
-- Outstanding Student Cadre, Xiamen University.
-- Outstanding Merit Student, Xiamen University.
+- Challenge Cup Extracurricular Academic Science and Technology Works Competition, Fujian Province, 2nd Prize.
+- China Undergraduate Mathematical Contest in Modeling, Fujian Province, 1st Prize.
+- Baotai Cup Xiamen University Student Innovation Competition, Gold Award.
+- Xiamen University Outstanding Student Cadre.
+- Xiamen University Outstanding Merit Student.
 
 **2024**
-- Provincial First Prize, Huawei ICT Competition Practice Track, Fujian Province.
+- Huawei ICT Competition Practice Track, Fujian Province, 1st Prize.
 
 ## GitHub Stats
 
