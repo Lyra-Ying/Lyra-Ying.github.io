@@ -166,6 +166,49 @@
       border-top: 0;
     }
 
+    .timeline {
+      position: relative;
+      margin: 8px 0 0;
+      padding-left: 28px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 8px;
+      top: 8px;
+      bottom: 8px;
+      width: 2px;
+      background: var(--line);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding: 0 0 24px;
+    }
+
+    .timeline-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -25px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px var(--soft);
+    }
+
+    .timeline-date {
+      margin-bottom: 4px;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
     .meta {
       margin-bottom: 8px;
       color: #475569;
@@ -236,10 +279,61 @@
 
     <section class="section">
       <h2>Research Timeline</h2>
-      <ul>
-        <li>2024.03 - Present: Research trainee, <a href="https://mac.xmu.edu.cn/">MAC Lab</a>, Xiamen University. Worked on scientific writing agents, epistemic graph modeling, survey synthesis, and 3D vision projects.</li>
-        <li>2025.11 - 2026.05: Research intern, University of Science and Technology of China, AI research direction. Focused on scientific writing agents and code-to-paper workflows.</li>
-      </ul>
+      <p><strong>Core directions:</strong> LLM agents and epistemic knowledge graphs. <strong>Secondary direction:</strong> 3D Gaussian Splatting and cultural heritage reconstruction.</p>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2025.11 - 2026.05</div>
+          <h3>USTC Research Intern, World Model Lab</h3>
+          <ul>
+            <li>Led the framework design of a Code-to-Paper scientific writing agent and proposed the AuthorMarkers structured intermediate representation.</li>
+            <li>Co-first author (second author) of the manuscript From Code to Paper, submitted to NeurIPS 2026, CCF A, under review.</li>
+            <li>Completed a systematic survey on generative game world models and organized a unified evaluation perspective for the field.</li>
+            <li>Core skills: scientific agents, code-text alignment, and automated multimodal academic figure generation.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2025.01 - 2026.04</div>
+          <h3>National Undergraduate Innovation Project, NLP Track</h3>
+          <ul>
+            <li>Core member building the TEG tri-level epistemic hypergraph framework for low-hallucination survey generation.</li>
+            <li>Led argument extraction and entropy-based controversy quantification; third author of a PPSN 2026 submission, CCF B.</li>
+            <li>Surveyed GraphRAG, ToG, and AutoSurvey methods and completed ablation validation.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024.12 - 2026.04</div>
+          <h3>National Undergraduate Innovation Project, 3D Vision Track</h3>
+          <ul>
+            <li>Core member developing iterative and transfer-style restoration strategies for Minnan architectural paintings.</li>
+            <li>Second author of a heritage reconstruction manuscript under major revision; co-first author of EGSeditor, submitted to ACM MM 2026, CCF A.</li>
+            <li>Built multi-view depth alignment and FastGS editing experiments with significant quantitative improvements.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024.07 - 2026.07</div>
+          <h3>University-level Innovation Project: LLM-assisted Radio Map Construction</h3>
+          <ul>
+            <li>Project leader for LLM-assisted radiation source localization and radio map construction.</li>
+            <li>Led research planning, progress coordination, LLM-enhanced localization optimization, simulation, and map modeling.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024.07 - 2026.07</div>
+          <h3>University-level Innovation Project: Legal Multimodal QA Assistant</h3>
+          <ul>
+            <li>Core member responsible for legal-domain dataset collection, cleaning, and standardization.</li>
+            <li>Provided data support for domain-specific large language model development.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024.06 - 2025.06</div>
+          <h3>Joined XMU LDK NLP & LLM Research Group</h3>
+          <ul>
+            <li>Systematically studied RAG, knowledge graphs, and large language model reasoning.</li>
+            <li>Also learned NeRF and 3D Gaussian Splatting fundamentals for later cross-modal research.</li>
+          </ul>
+        </article>
+      </div>
     </section>
     <section class="section" id="research">
       <h2>Research Interests</h2>
