@@ -172,6 +172,22 @@
       padding-left: 28px;
     }
 
+    .timeline-summary {
+      display: grid;
+      gap: 8px;
+      margin: 0 0 24px;
+      padding: 14px 16px;
+      background: var(--soft);
+      border: 1px solid #dbe6f6;
+      border-radius: 8px;
+    }
+
+    .timeline-summary p {
+      margin: 0;
+      color: var(--ink);
+      line-height: 1.55;
+    }
+
     .timeline::before {
       content: "";
       position: absolute;
@@ -345,7 +361,10 @@
 
     <section class="section">
       <h2>📅 Research Timeline</h2>
-      <p><strong>Core directions:</strong> LLM agents and epistemic knowledge graphs. <strong>Secondary direction:</strong> 3D Gaussian Splatting and cultural heritage reconstruction.</p>
+      <div class="timeline-summary">
+        <p><strong>Core directions:</strong> LLM agents and epistemic knowledge graphs.</p>
+        <p><strong>Secondary direction:</strong> 3D Gaussian Splatting and cultural heritage reconstruction.</p>
+      </div>
       <div class="timeline">
         <article class="timeline-item">
           <div class="timeline-date">2025.11 - 2026.05</div>
