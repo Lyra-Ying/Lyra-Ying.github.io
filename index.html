@@ -176,7 +176,7 @@
       align-items: center;
     }
 
-    .research-mood p {
+    .mood-line {
       margin: 0;
       color: var(--ink);
       font-size: 24px;
@@ -390,7 +390,7 @@
         grid-template-columns: 1fr;
       }
 
-      .research-mood p {
+      .mood-line {
         font-size: 21px;
       }
 
@@ -410,7 +410,6 @@
       <img class="profile" src="./liuying.jpg" alt="Lyra profile photo">
       <section>
         <h1>Lyra (&#21016;&#28386;)</h1>
-        <p>I am an undergraduate researcher at Xiamen University. My research focuses on building trustworthy, knowledge-enhanced AI systems, with particular interests in LLM Agents, scientific discovery agents, epistemic graph reasoning, and 3D generative vision.</p>
         <ul class="facts">
           <li><strong>&#127891; Undergraduate:</strong> Artificial Intelligence, <a href="https://informatics.xmu.edu.cn/">School of Informatics</a>, <a href="https://www.xmu.edu.cn/">Xiamen University</a></li>
           <li><strong>&#127793; Political status:</strong> Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)</li>
@@ -436,7 +435,10 @@
 
     <section class="section">
       <div class="research-mood">
-        <p>I love AI and quiet late-night research.</p>
+        <div>
+          <p class="mood-line">I love AI and quiet late-night research.</p>
+          <p>I am an undergraduate researcher at Xiamen University. My research focuses on building trustworthy, knowledge-enhanced AI systems, with particular interests in LLM Agents, scientific discovery agents, epistemic graph reasoning, and 3D generative vision.</p>
+        </div>
         <img class="mood-gif" src="./cat-typing.gif" alt="Cat typing animation">
       </div>
     </section>
