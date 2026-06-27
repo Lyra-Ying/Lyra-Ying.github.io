@@ -32,7 +32,7 @@ I am an undergraduate researcher at Xiamen University. My research focuses on bu
 
 ## News
 
-- **2026.06** 🎉 Won the 2nd Prize, Fujian Division, China Collegiate Computing Design Competition.
+- **2026.06** 🎉 Won the 2nd Prize, China Collegiate Computing Design Competition, Fujian Division.
 - **2025.11** 🎉 Won the 2nd Prize, Challenge Cup Extracurricular Academic Science and Technology Works Competition, Fujian Province.
 
 ## Educations
