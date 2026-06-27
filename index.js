@@ -32,7 +32,7 @@ const readme = `<h1 align="center">Lyra&#65288;&#21016;&#28386;&#65289;&#20010;&
 
 > Core research directions: LLM agents and epistemic knowledge graphs. Secondary direction: 3D Gaussian Splatting and cultural heritage reconstruction.
 
-### 2025.11 - 2026.05 | USTC Research Intern, World Model Lab
+### 2025.11 - 2026.05 | Remote Research Intern, AIDS, USTC
 - Led the framework design of a Code-to-Paper scientific writing agent and proposed the AuthorMarkers structured intermediate representation.
 - Co-first author (second author) of the manuscript *From Code to Paper*, submitted to NeurIPS 2026, CCF A, under review.
 - Completed a systematic survey on generative game world models and organized a unified evaluation perspective for the field.
