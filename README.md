@@ -26,7 +26,7 @@
 
 ## Education
 
-- **2023.09 - Present:** B.Eng. student, School of Informatics, [Xiamen University](https://www.xmu.edu.cn/).
+- **2023.09 - Present:** B.Eng. student, [School of Informatics](https://informatics.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/).
 - **2020.09 - 2023.06:** Student, Anhui Dingyuan High School.
 
 ## Research Interests
