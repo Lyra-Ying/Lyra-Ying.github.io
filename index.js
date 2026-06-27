@@ -28,6 +28,12 @@ const readme = `<h1 align="center">Lyra&#65288;&#21016;&#28386;&#65289;&#20010;&
 - **2023.09 - Present:** B.Eng. student, [School of Informatics](https://informatics.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/).
 - **2020.09 - 2023.06:** Student, Anhui Dingyuan High School.
 
+## Research Interests
+
+- **Knowledge Graphs & Epistemic Modeling:** tri-level epistemic graphs, multi-granular knowledge extraction, argumentative relation mining, and information-theoretic evaluation for low-hallucination survey synthesis.
+- **LLM Agents for Scientific Research:** scientific writing agents, tool-augmented reasoning, code-to-paper automation, multi-modal research workflows, and task planning for academic tasks.
+- **3D Vision & Cross-Modal Generation:** 3D Gaussian Splatting, multi-view reconstruction, cultural heritage restoration, and cross-modal alignment to ground knowledge graphs in visual data.
+
 ## Research Timeline
 
 > Core research directions: LLM agents and epistemic knowledge graphs. Secondary direction: 3D Gaussian Splatting and cultural heritage reconstruction.
@@ -59,34 +65,7 @@ const readme = `<h1 align="center">Lyra&#65288;&#21016;&#28386;&#65289;&#20010;&
 ### 2024.06 - 2025.06 | Joined XMU LDK NLP & LLM Research Group
 - Systematically studied RAG, knowledge graphs, and large language model reasoning.
 - Also learned NeRF and 3D Gaussian Splatting fundamentals for later cross-modal research.
-## Research Interests
 
-- **Knowledge Graphs & Epistemic Modeling:** tri-level epistemic graphs, multi-granular knowledge extraction, argumentative relation mining, and information-theoretic evaluation for low-hallucination survey synthesis.
-- **LLM Agents for Scientific Research:** scientific writing agents, tool-augmented reasoning, code-to-paper automation, multi-modal research workflows, and task planning for academic tasks.
-- **3D Vision & Cross-Modal Generation:** 3D Gaussian Splatting, multi-view reconstruction, cultural heritage restoration, and cross-modal alignment to ground knowledge graphs in visual data.
-
-## Selected Research Manuscripts
-
-**From Code to Paper: An Author-Guided Agent and Benchmark for Method Drafting and Figure Generation**  
-Manuscript under review. Contributed to the author-guided agent framework, AuthorMarkers intermediate representation, intent-code alignment, benchmark construction, and multi-dimensional evaluation.
-
-**TEG: Tri-Level Epistemic Graphs for Survey Synthesis**  
-Manuscript under review. Worked on epistemic graph modeling, multi-granularity argument extraction, relation reasoning, and entropy-based controversy quantification for low-hallucination survey synthesis.
-
-## Skills
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/3DGS-111827?style=flat-square" alt="3D Gaussian Splatting"/>
-  <img src="https://img.shields.io/badge/NeRF-0F766E?style=flat-square" alt="NeRF"/>
-  <img src="https://img.shields.io/badge/Stable%20Diffusion-6D28D9?style=flat-square" alt="Stable Diffusion"/>
-  <img src="https://img.shields.io/badge/RAG-2563EB?style=flat-square" alt="RAG"/>
-  <img src="https://img.shields.io/badge/GraphRAG-0EA5E9?style=flat-square" alt="GraphRAG"/>
-  <img src="https://img.shields.io/badge/LLM%20Agent-F97316?style=flat-square" alt="LLM Agent"/>
-  <img src="https://img.shields.io/badge/Experiment%20Design-475569?style=flat-square" alt="Experiment Design"/>
-  <img src="https://img.shields.io/badge/Visualization-16A34A?style=flat-square" alt="Visualization"/>
-</p>
 
 ## Projects
 
