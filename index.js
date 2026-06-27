@@ -13,16 +13,14 @@ const readme = `<h1 align="center">Lyra's Homepage</h1>
   <img src="https://komarev.com/ghpvc/?username=Lyra-Ying&style=flat-square&color=blue" alt="Profile views"/>
 </p>
 
-<img align="right" src="https://avatars.githubusercontent.com/Lyra-Ying" width="210" alt="Lyra Ying profile photo"/>
+<img align="right" src="https://avatars.githubusercontent.com/Lyra-Ying" width="210" alt="Liu Ying profile photo"/>
 
 ## About Me
 
-I am **Liu Ying (Lyra, &#21016;&#28322;)**, an undergraduate student majoring in **Artificial Intelligence** at **Xiamen University**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
+I am **&#21016;&#28322; (Liu Ying / Lyra)**, an undergraduate student majoring in **Artificial Intelligence** at **Xiamen University**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
 
-- **GPA:** 3.75/4.0
-- **Rank:** 7/98, top 8%
-- **English:** CET-4 548, CET-6 512
-- **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05
+- I have spent **one and a half years as an on-site research intern** at the [MAC Lab, Xiamen University](https://mac.xmu.edu.cn/), working on 3D vision, generative reconstruction, and LLM-agent research.
+- **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05.
 
 ## Research Interests
 
