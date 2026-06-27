@@ -70,8 +70,8 @@ Served as project lead, optimized localization algorithms and completed end-to-e
 Collected, cleaned and standardized legal corpus to provide high-quality data for domain multimodal LLMs.
 
 ### 2024.06 - 2025.06 | XMU LDK NLP & LLM Research Group
-**Keywords:** RAG, Knowledge Graph, Cross-Modal 3D Vision  
-Laid theoretical foundation of retrieval reasoning, epistemic modeling and fundamental 3D reconstruction techniques.
+**Keywords:** Machine Learning, Deep Learning, RAG Basics  
+Built foundational knowledge in machine learning and deep learning, with extended exploration of retrieval-augmented generation and related NLP topics.
 
 ## Awards and Honors
 
