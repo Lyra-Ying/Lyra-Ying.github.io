@@ -28,7 +28,7 @@ const readme = `<h1 align="center">Lyra&#65288;&#21016;&#28386;&#65289;&#20010;&
 
 I love AI and quiet late-night research, as Lyra chases the starlight.
 
-I am an undergraduate researcher at Xiamen University. My research focuses on building trustworthy, knowledge-enhanced AI systems, with particular interests in LLM Agents, scientific discovery agents, epistemic graph reasoning, and 3D generative vision.
+I am an undergraduate student at Xiamen University. My research focuses on building trustworthy, knowledge-enhanced AI systems, with particular interests in LLM Agents, scientific discovery agents, epistemic graph reasoning, and 3D generative vision.
 
 ## News
 
