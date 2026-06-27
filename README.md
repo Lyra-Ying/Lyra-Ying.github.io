@@ -1,51 +1,119 @@
-<h2>Hey 👋, I'm <a href="https://stanleylim.me/">Stanley</a></h2>
-<p>I'm currently a software engineer at <strong><a href="https://www.snapchat.com/">Snapchat</a></strong> and formerly at <strong><a href="https://aws.amazon.com/">AWS</a></strong> based in 🌁 Seattle. I am working on some side projects, learning a couple new dishes, and trying to conquer the world as Tannu Tuva in HOI4.</p>
-<p><a href="https://stanleylim.me"><img src="https://img.shields.io/badge/-stanleylim.me-4E69C8?style=flat-square&amp;labelColor=4E69C8&amp;logo=Firefox&amp;link=https://stanleylim.me" alt="Website Badge"></a> <a href="https://medium.com/@serbis"><img src="https://img.shields.io/badge/-@serbis-14c767?style=flat-square&amp;labelColor=14c767&amp;logo=Medium&amp;link=https://medium.com/@serbis" alt="Medium Badge"></a> <a href="https://www.linkedin.com/in/serbis/"><img src="https://img.shields.io/badge/-@serbis-0077B5?style=flat-square&amp;labelColor=0077B5&amp;logo=LinkedIn&amp;link=https://www.linkedin.com/in/serbis/" alt="LinkedIn Badge"></a> <a href="https://dev.to/spiderpig86"><img src="https://img.shields.io/badge/-@spiderpig86-0A0A0A?style=flat-square&amp;labelColor=0A0A0A&amp;logo=dev.to&amp;link=https://dev.to/spiderpig86" alt="DevTo Badge"></a> <a href="https://open.spotify.com/user/1235099575"><img src="https://img.shields.io/badge/-@Stanley%20Lim-1ED760?style=flat-square&amp;labelColor=fff&amp;logo=Spotify&amp;link=https://open.spotify.com/user/1235099575" alt="Spotify Badge"></a></p>
-<p>🍌 Don't forget to get some Potassium 🍌</p>
-<img align="right" src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" />
-<h2>⚡️ A Few Quick Facts</h2>
-<ul>
-<li>🔭 I’m currently working on <a href="https://github.com/Spiderpig86/Cirrus">Cirrus</a>.</li>
-<li>🧐 Learning about <strong>serverless architectures</strong>, <strong>distributed systems</strong>, and a bit of <strong>ML</strong>.</li>
-<li>👨‍💻 Most of my projects are available on <a href="https://github.com/Spiderpig86">Github</a>.</li>
-<li>📝 I <del>regularly</del> write articles on <a href="https://blog.stanleylim.me">my blog</a>.</li>
-<li>💬 Ping me about <strong>react, koa, security, and cloud stuff</strong>.</li>
-<li>📙 Check out my <a href="https://www.stanleylim.me/resume/resume.pdf">resume</a>.</li>
-<li>🎉 Fun Fact: 我也会讲中文。</li>
-</ul>
-<h2>✒️ Recent Posts</h2>
-<details>
-    <summary>Explore</summary>
-    <li><a target="_blank" href="https://blog.stanleylim.me/maximizing-efficiency-and-impact---why-i-choose-mermaid-for-graph-creation">Maximizing Efficiency and Impact - Why I Choose Mermaid for Graph Creation — June 19, 2023</a></li><li><a target="_blank" href="https://blog.stanleylim.me/til-how-casing-can-break-netlify-functions">TIL How Casing Can Break Netlify Functions — February 27, 2023</a></li><li><a target="_blank" href="https://blog.stanleylim.me/godaddy-redirect-hack">GoDaddy Redirect Hack — December 20, 2022</a></li><li><a target="_blank" href="https://blog.stanleylim.me/airpods-not-charging-on-windows">Airpods Not Charging on Windows — August 19, 2022</a></li><li><a target="_blank" href="https://blog.stanleylim.me/the-fastest-way-to-develop-and-deploy-your-next-project">⚡ The Fastest Way to Develop and Deploy Your Next Project — June 09, 2022</a></li>
-</details>
-<p><a target="_blank" href="https://blog.stanleylim.me">Read More</a></p>
-<h2>🚀 Some Tools I Use</h2>
-<p align="left">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="angular-js" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vue" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg" alt="gulp" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" alt="java" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" alt=".NET" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="25" />
-<img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cucumber/cucumber-plain.svg" alt="cucumber" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-plain.svg" alt="heroku" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/travis/travis-plain.svg" alt="travis" width="25" />
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png" alt="aws" width="25" />
-<img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="25" />
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="25" />
-<img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="Kubernetes" width="25" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go" width="25" />
+<h1 align="center">Lyra's Homepage</h1>
+
+<p align="center">
+  <strong>AI Undergraduate @ Xiamen University</strong><br/>
+  3D Vision | Generative Reconstruction | Scientific LLM Agents
 </p>
-<img src="https://github-readme-stats.vercel.app/api?username=spiderpig86&show_icons=true&count_private=true" alt="spiderpig86" />
-<p><a href="http://hits.dwyl.com/spiderpig86/spiderpig86/spiderpig86.svg?style=flat-square"><img src="https://hits.dwyl.com/spiderpig86/spiderpig86/spiderpig86.svg?style=flat-square" alt="HitCount"></a></p>
+
+<p align="center">
+  <a href="mailto:liuying07@stu.xmu.edu.cn"><img src="https://img.shields.io/badge/Email-liuying07%40stu.xmu.edu.cn-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/Lyra-Ying"><img src="https://img.shields.io/badge/GitHub-Lyra--Ying-181717?style=flat-square&logo=github" alt="GitHub"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Lyra-Ying&style=flat-square&color=blue" alt="Profile views"/>
+</p>
+
+<img align="right" src="https://avatars.githubusercontent.com/Lyra-Ying" width="210" alt="Lyra Ying profile photo"/>
+
+## About Me
+
+I am **Liu Ying (Lyra, &#21016;&#28322;)**, an undergraduate student majoring in **Artificial Intelligence** at **Xiamen University**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
+
+- **GPA:** 3.75/4.0
+- **Rank:** 7/98, top 8%
+- **English:** CET-4 548, CET-6 512
+- **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05
+
+## Research Interests
+
+- **3D Vision:** 3D Gaussian Splatting, NeRF, multi-view generation, fast 3D scene editing, cultural heritage reconstruction.
+- **LLM Agents:** scientific writing agents, RAG, GraphRAG, ToG/ToG 2.0, tool calling, task planning.
+- **Knowledge Modeling:** tri-level epistemic graphs, hypergraphs, argument graph construction, entropy-based controversy quantification.
+- **Controllable Generation:** Stable Diffusion restoration, multi-view image inpainting, Depth Anything alignment, cross-view consistency.
+
+## Skills
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/3DGS-111827?style=flat-square" alt="3D Gaussian Splatting"/>
+  <img src="https://img.shields.io/badge/NeRF-0F766E?style=flat-square" alt="NeRF"/>
+  <img src="https://img.shields.io/badge/Stable%20Diffusion-6D28D9?style=flat-square" alt="Stable Diffusion"/>
+  <img src="https://img.shields.io/badge/RAG-2563EB?style=flat-square" alt="RAG"/>
+  <img src="https://img.shields.io/badge/GraphRAG-0EA5E9?style=flat-square" alt="GraphRAG"/>
+  <img src="https://img.shields.io/badge/LLM%20Agent-F97316?style=flat-square" alt="LLM Agent"/>
+  <img src="https://img.shields.io/badge/Experiment%20Design-475569?style=flat-square" alt="Experiment Design"/>
+  <img src="https://img.shields.io/badge/Visualization-16A34A?style=flat-square" alt="Visualization"/>
+</p>
+
+## Publications
+
+**From Code to Paper: An Author-Guided Agent and Benchmark for Method Drafting and Figure Generation**  
+*Co-first author, second author · NeurIPS 2026, CCF A, Under Review*  
+Designed the author-guided agent framework and AuthorMarkers intermediate representation; built intent parsing, code evidence scanning, intent-code alignment, benchmark construction, and multi-dimensional evaluation.  
+**Results:** faithfulness +0.956, figure readability +0.762, overall quality +9.4.
+
+**EGSeditor: Efficient 3D Scene Editing in 200 Seconds via Dataset-Level Multi-View Optimization**  
+*Co-first author, third author · ACM MM 2026, CCF A, Under Review*  
+Worked on experimental design, GaussCtrl/SplatFlow baseline reproduction, Tanks & Temples and DeepBlending validation sets, and multi-metric evaluation including FID, CLIP-T, cross-view consistency, and inference time.
+
+**Stable Diffusion-Enhanced 3D Gaussian Splatting for Efficient Neural Reconstruction of Chinese Heritage Structures**  
+*Second author · Major Revision, 2026*  
+Proposed transfer-style and iterative restoration strategies for large missing regions and local weathering; integrated Stable Diffusion multi-view pre-restoration with Depth Anything depth alignment.  
+**Results:** PSNR +13%, SSIM +22%, LPIPS -30%, model storage -45.6%.
+
+**TEG: Tri-Level Epistemic Graphs for Survey Synthesis**  
+*Third author · PPSN 2026, CCF B, Under Review*  
+Contributed to tri-level epistemic graph modeling, multi-granularity argument extraction, relation reasoning, and entropy-based controversy quantification for low-hallucination survey synthesis.
+
+## Projects
+
+**Vmamba-based 3D Restoration of Ancient Architectural Paintings**  
+National Undergraduate Innovation Project, core member, 2024.09-2026.04.  
+Built toward heritage structure reconstruction and restoration, leading to the 3D reconstruction manuscript under revision.
+
+**Dual-Graph Enhanced Interactive LLM System for Low-Hallucination Long-Form Writing**  
+National Undergraduate Innovation Project, core member, 2024.10-2026.04.  
+Supported TEG-based survey synthesis, graph-guided reasoning, and long-form academic writing.
+
+**President's Fund Extension Project in Low-Hallucination Scientific Writing**  
+Participant, 2025.03-2027.03.  
+Extended graph-enhanced writing and knowledge modeling research.
+
+**Legal Multimodal Intelligent QA Assistant**  
+University innovation training project, participant, 2024.07-2026.07.  
+Worked on legal data cleaning and domain-specific large-model data support.
+
+**LLM-Assisted Radiation Source Localization and Radio Map Construction**  
+University innovation training project, project leader, 2024.07-2026.04.  
+Led algorithm optimization, simulation experiments, and radio map modeling.
+
+**FastGS-based Digital Restoration of Minnan Heritage Paintings**  
+Research climbing program, participant, 2025.04-2027.04.  
+Connected with the ACM MM EGSeditor work on fast and consistent 3D Gaussian editing.
+
+## Awards
+
+- Provincial First Prize, China Undergraduate Mathematical Contest in Modeling, 2025.12.
+- Provincial Second Prize, Challenge Cup Fujian Academic and Technological Works Competition, 2025.11.
+- Provincial First Prize, Huawei ICT Competition Practice Track, 2024.12.
+- Gold Award, Baotai Cup Xiamen University Innovation Competition, 2025.08.
+- Outstanding Merit Student, Xiamen University, 2024.09.
+
+## GitHub Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Lyra-Ying&show_icons=true&count_private=true&hide_border=true" alt="Lyra-Ying GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lyra-Ying&layout=compact&hide_border=true" alt="Top languages"/>
+</p>
+
+## Contact
+
+- Email: [liuying07@stu.xmu.edu.cn](mailto:liuying07@stu.xmu.edu.cn)
+- GitHub: [Lyra-Ying](https://github.com/Lyra-Ying)
+
+## Links to Add
+
+- Blog:
+- Google Scholar:
+- ORCID:
+- CV:
+- Project pages:

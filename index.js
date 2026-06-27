@@ -1,254 +1,125 @@
-/**
- * README Generator
- */
-const md = require('markdown-it')({
-    html: true,
-    linkify: true,
-    breaks: true
-});
-const mdEmoji = require('markdown-it-emoji');
 const fs = require('fs');
-const axios = require('axios').default;
 
-md.use(mdEmoji);
+const readme = `<h1 align="center">Lyra's Homepage</h1>
 
-const BLOG_HOST = `https://blog.stanleylim.me`;
+<p align="center">
+  <strong>AI Undergraduate @ Xiamen University</strong><br/>
+  3D Vision | Generative Reconstruction | Scientific LLM Agents
+</p>
 
-/* README Sections */
-const introTitle = generateTitle(2, `Hey :wave:, I'm ${generateLink('Stanley', 'https://stanleylim.me/')}`);
-const introDescription = `I'm currently a software engineer at **${generateLink('Snapchat', 'https://www.snapchat.com/')}** and formerly at **${generateLink(
-    'AWS',
-    'https://aws.amazon.com/'
-)}** based in 🌁 Seattle. I am working on some side projects, learning a couple new dishes, and trying to conquer the world as Tannu Tuva in HOI4.`;
+<p align="center">
+  <a href="mailto:liuying07@stu.xmu.edu.cn"><img src="https://img.shields.io/badge/Email-liuying07%40stu.xmu.edu.cn-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/Lyra-Ying"><img src="https://img.shields.io/badge/GitHub-Lyra--Ying-181717?style=flat-square&logo=github" alt="GitHub"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Lyra-Ying&style=flat-square&color=blue" alt="Profile views"/>
+</p>
 
-const notice = `🍌 Don't forget to get some Potassium 🍌`
+<img align="right" src="https://avatars.githubusercontent.com/Lyra-Ying" width="210" alt="Lyra Ying profile photo"/>
 
-const badgeConfigs = [{
-        name: 'Website',
-        badgeText: 'stanleylim.me',
-        labelBgColor: '4E69C8',
-        logoBgColor: '4E69C8',
-        logo: 'Firefox',
-        link: 'https://stanleylim.me',
-    },
-    {
-        name: 'Medium',
-        badgeText: '@serbis',
-        labelBgColor: '14c767',
-        logoBgColor: '14c767',
-        logo: 'Medium',
-        link: 'https://medium.com/@serbis',
-    },
-    {
-        name: 'LinkedIn',
-        badgeText: '@serbis',
-        labelBgColor: '0077B5',
-        logoBgColor: '0077B5',
-        logo: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/serbis/',
-    },
-    {
-        name: 'DevTo',
-        badgeText: '@spiderpig86',
-        labelBgColor: '0A0A0A',
-        logoBgColor: '0A0A0A',
-        logo: 'dev.to',
-        link: 'https://dev.to/spiderpig86',
-    },
-    {
-        name: 'Spotify',
-        badgeText: '@Stanley%20Lim',
-        labelBgColor: '1ED760',
-        logoBgColor: 'fff',
-        logo: 'Spotify',
-        link: 'https://open.spotify.com/user/1235099575',
-    },
-];
-const badges = badgeConfigs.reduce((result, config) => result + ' ' + generateBadge(config), '');
+## About Me
 
-const gif = `<img align="right" src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" />`;
-const factsTitle = generateTitle(2, `:zap: A Few Quick Facts`);
-const factsConfigs = [
-    `🔭 I’m currently working on [Cirrus](https://github.com/Spiderpig86/Cirrus).`,
-    `🧐 Learning about **serverless architectures**, **distributed systems**, and a bit of **ML**.`,
-    `👨‍💻 Most of my projects are available on [Github](https://github.com/Spiderpig86).`,
-    `📝 I <del>regularly</del> write articles on [my blog](${BLOG_HOST}).`,
-    `💬 Ping me about **react, koa, security, and cloud stuff**.`,
-    `📙 Check out my [resume](https://www.stanleylim.me/resume/resume.pdf).`,
-    `🎉 Fun Fact: 我也会讲中文。`,
-];
-const facts = factsConfigs.reduce((result, fact) => result + `\n - ${fact}`, '');
+I am **Liu Ying (Lyra, &#21016;&#28322;)**, an undergraduate student majoring in **Artificial Intelligence** at **Xiamen University**. My research focuses on **3D Gaussian Splatting**, **NeRF-style reconstruction**, **generative 3D editing**, and **LLM agents for scientific writing**.
 
-const postsTitle = generateTitle(2, `:black_nib: Recent Posts`)
+- **GPA:** 3.75/4.0
+- **Rank:** 7/98, top 8%
+- **English:** CET-4 548, CET-6 512
+- **Research Internship:** University of Science and Technology of China, AI research direction, 2025.11-2026.05
 
-const toolsTitle = generateTitle(2, `:rocket: Some Tools I Use`)
-const toolsIconSize = 25;
-const toolsConfig = [{
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
-        alt: 'react',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg',
-        alt: 'angular-js',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg',
-        alt: 'vue',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg',
-        alt: 'bootstrap',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg',
-        alt: 'css3',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/gulp/gulp-plain.svg',
-        alt: 'gulp',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg',
-        alt: 'java',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
-        alt: 'javascript',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg',
-        alt: 'typescript',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg',
-        alt: '.NET',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg',
-        alt: 'mongodb',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg',
-        alt: 'mysql',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg',
-        alt: 'redis',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
-        alt: 'nodejs',
-    },
-    {
-        src: 'https://www.vectorlogo.zone/logos/springio/springio-icon.svg',
-        alt: 'spring',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg',
-        alt: 'python',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg',
-        alt: 'nginx',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/cucumber/cucumber-plain.svg',
-        alt: 'cucumber',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/heroku/heroku-plain.svg',
-        alt: 'heroku',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/travis/travis-plain.svg',
-        alt: 'travis',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png',
-        alt: 'aws',
-    },
-    {
-        src: 'https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg',
-        alt: 'gcp',
-    },
-    {
-        src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg',
-        alt: 'Docker',
-    },
-    {
-        src: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg',
-        alt: 'Kubernetes',
-    },
-    {
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
-        alt: 'Go',
-    },
-];
-const tools = toolsConfig.reduce((result, toolConfig) => result + '\n' + generateIcon(toolConfig, toolsIconSize), '');
+## Research Interests
 
-const stats = `<img src="https://github-readme-stats.vercel.app/api?username=spiderpig86&show_icons=true&count_private=true" alt="spiderpig86" />`;
+- **3D Vision:** 3D Gaussian Splatting, NeRF, multi-view generation, fast 3D scene editing, cultural heritage reconstruction.
+- **LLM Agents:** scientific writing agents, RAG, GraphRAG, ToG/ToG 2.0, tool calling, task planning.
+- **Knowledge Modeling:** tri-level epistemic graphs, hypergraphs, argument graph construction, entropy-based controversy quantification.
+- **Controllable Generation:** Stable Diffusion restoration, multi-view image inpainting, Depth Anything alignment, cross-view consistency.
 
-// Count is down, will they ever recover from this catastrophe? https://github.com/jwenjian/visitor-badge/issues/32
-// const visitors = `![visitors](https://visitor-badge.glitch.me/badge?page_id=Spiderpig86.Spiderpig86)`;
-const visitors = `[![HitCount](https://hits.dwyl.com/spiderpig86/spiderpig86/spiderpig86.svg?style=flat-square)](http://hits.dwyl.com/spiderpig86/spiderpig86/spiderpig86.svg?style=flat-square)`;
+## Skills
 
-(async () => {
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/3DGS-111827?style=flat-square" alt="3D Gaussian Splatting"/>
+  <img src="https://img.shields.io/badge/NeRF-0F766E?style=flat-square" alt="NeRF"/>
+  <img src="https://img.shields.io/badge/Stable%20Diffusion-6D28D9?style=flat-square" alt="Stable Diffusion"/>
+  <img src="https://img.shields.io/badge/RAG-2563EB?style=flat-square" alt="RAG"/>
+  <img src="https://img.shields.io/badge/GraphRAG-0EA5E9?style=flat-square" alt="GraphRAG"/>
+  <img src="https://img.shields.io/badge/LLM%20Agent-F97316?style=flat-square" alt="LLM Agent"/>
+  <img src="https://img.shields.io/badge/Experiment%20Design-475569?style=flat-square" alt="Experiment Design"/>
+  <img src="https://img.shields.io/badge/Visualization-16A34A?style=flat-square" alt="Visualization"/>
+</p>
 
-    // Get blog entries
-    const response = await axios.get(`${BLOG_HOST}/page-data/index/page-data.json`);
-    const postData = response.data.result.data.allMarkdownRemark.edges;
-    let posts = ``;
+## Publications
 
-    postData.slice(0, Math.min(postData.length, 5)).map(post => {
-        const title = post.node.frontmatter.title;
-        const date = post.node.frontmatter.date;
-        const path = post.node.frontmatter.path;
-        posts += `<li><a target="_blank" href="${BLOG_HOST}${path}">${title} — ${date}</a></li>`;
-    });
+**From Code to Paper: An Author-Guided Agent and Benchmark for Method Drafting and Figure Generation**  
+*Co-first author, second author · NeurIPS 2026, CCF A, Under Review*  
+Designed the author-guided agent framework and AuthorMarkers intermediate representation; built intent parsing, code evidence scanning, intent-code alignment, benchmark construction, and multi-dimensional evaluation.  
+**Results:** faithfulness +0.956, figure readability +0.762, overall quality +9.4.
 
-    const content = `${introTitle}\n
-${introDescription}\n
-${badges}\n
-${notice}\n
-${gif}\n
-${factsTitle}\n
-${facts}\n
-${postsTitle}\n
-<details>
-    <summary>Explore</summary>
-    ${posts}\n
-</details>\n
-<a target="_blank" href="${BLOG_HOST}">Read More</a>\n
-${toolsTitle}\n
-<p align="left">\n
-    ${tools}\n
-</p>\n
-${stats}\n
-${visitors}
+**EGSeditor: Efficient 3D Scene Editing in 200 Seconds via Dataset-Level Multi-View Optimization**  
+*Co-first author, third author · ACM MM 2026, CCF A, Under Review*  
+Worked on experimental design, GaussCtrl/SplatFlow baseline reproduction, Tanks & Temples and DeepBlending validation sets, and multi-metric evaluation including FID, CLIP-T, cross-view consistency, and inference time.
+
+**Stable Diffusion-Enhanced 3D Gaussian Splatting for Efficient Neural Reconstruction of Chinese Heritage Structures**  
+*Second author · Major Revision, 2026*  
+Proposed transfer-style and iterative restoration strategies for large missing regions and local weathering; integrated Stable Diffusion multi-view pre-restoration with Depth Anything depth alignment.  
+**Results:** PSNR +13%, SSIM +22%, LPIPS -30%, model storage -45.6%.
+
+**TEG: Tri-Level Epistemic Graphs for Survey Synthesis**  
+*Third author · PPSN 2026, CCF B, Under Review*  
+Contributed to tri-level epistemic graph modeling, multi-granularity argument extraction, relation reasoning, and entropy-based controversy quantification for low-hallucination survey synthesis.
+
+## Projects
+
+**Vmamba-based 3D Restoration of Ancient Architectural Paintings**  
+National Undergraduate Innovation Project, core member, 2024.09-2026.04.  
+Built toward heritage structure reconstruction and restoration, leading to the 3D reconstruction manuscript under revision.
+
+**Dual-Graph Enhanced Interactive LLM System for Low-Hallucination Long-Form Writing**  
+National Undergraduate Innovation Project, core member, 2024.10-2026.04.  
+Supported TEG-based survey synthesis, graph-guided reasoning, and long-form academic writing.
+
+**President's Fund Extension Project in Low-Hallucination Scientific Writing**  
+Participant, 2025.03-2027.03.  
+Extended graph-enhanced writing and knowledge modeling research.
+
+**Legal Multimodal Intelligent QA Assistant**  
+University innovation training project, participant, 2024.07-2026.07.  
+Worked on legal data cleaning and domain-specific large-model data support.
+
+**LLM-Assisted Radiation Source Localization and Radio Map Construction**  
+University innovation training project, project leader, 2024.07-2026.04.  
+Led algorithm optimization, simulation experiments, and radio map modeling.
+
+**FastGS-based Digital Restoration of Minnan Heritage Paintings**  
+Research climbing program, participant, 2025.04-2027.04.  
+Connected with the ACM MM EGSeditor work on fast and consistent 3D Gaussian editing.
+
+## Awards
+
+- Provincial First Prize, China Undergraduate Mathematical Contest in Modeling, 2025.12.
+- Provincial Second Prize, Challenge Cup Fujian Academic and Technological Works Competition, 2025.11.
+- Provincial First Prize, Huawei ICT Competition Practice Track, 2024.12.
+- Gold Award, Baotai Cup Xiamen University Innovation Competition, 2025.08.
+- Outstanding Merit Student, Xiamen University, 2024.09.
+
+## GitHub Stats
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Lyra-Ying&show_icons=true&count_private=true&hide_border=true" alt="Lyra-Ying GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lyra-Ying&layout=compact&hide_border=true" alt="Top languages"/>
+</p>
+
+## Contact
+
+- Email: [liuying07@stu.xmu.edu.cn](mailto:liuying07@stu.xmu.edu.cn)
+- GitHub: [Lyra-Ying](https://github.com/Lyra-Ying)
+
+## Links to Add
+
+- Blog:
+- Google Scholar:
+- ORCID:
+- CV:
+- Project pages:
 `;
 
-    const markdownContent = md.render(content);
-
-    fs.writeFile('README.md', markdownContent, (err) => {
-        if (err) {
-            return console.error(err);
-        }
-        console.info(`Writing to README.md`);
-    });
-})();
-
-function generateBadge(badgeConfig) {
-    return `[![${badgeConfig.name} Badge](https://img.shields.io/badge/-${badgeConfig.badgeText}-${badgeConfig.labelBgColor}?style=flat-square&labelColor=${badgeConfig.logoBgColor}&logo=${badgeConfig.logo}&link=${badgeConfig.link})](${badgeConfig.link})`;
-}
-
-function generateIcon(iconConfig, toolsIconSize) {
-    return `<img src="${iconConfig.src}" alt="${iconConfig.alt}" width="${toolsIconSize}" />`;
-}
-
-function generateTitle(size, title) {
-    return `${'#'.repeat(size)} ${title}`;
-}
-
-function generateLink(label, link) {
-    return `[${label}](${link})`;
-}
+fs.writeFileSync('README.md', readme);
+console.info('Writing to README.md');

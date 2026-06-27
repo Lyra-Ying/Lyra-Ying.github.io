@@ -1,5 +1,5 @@
 {
-  "name": "spiderpig86",
+  "name": "lyra-ying",
   "version": "1.0.0",
   "description": "Personal README.",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Spiderpig86/Spiderpig86.git"
+    "url": "git+https://github.com/Lyra-Ying/Lyra-Ying.github.io.git"
   },
-  "author": "Stanley Lim",
+  "author": "Liu Ying",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Spiderpig86/Spiderpig86/issues"
+    "url": "https://github.com/Lyra-Ying/Lyra-Ying.github.io/issues"
   },
-  "homepage": "https://github.com/Spiderpig86/Spiderpig86#readme",
+  "homepage": "https://github.com/Lyra-Ying/Lyra-Ying.github.io#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "markdown-it": "^11.0.0",
