@@ -18,8 +18,7 @@
 - **Name:** Lyra (&#21016;&#28386;)
 - **Undergraduate:** Artificial Intelligence, [School of Informatics](https://informatics.xmu.edu.cn/), [Xiamen University](https://www.xmu.edu.cn/)
 - **Political status:** Probationary CPC Member (&#20013;&#20849;&#39044;&#22791;&#20826;&#21592;)
-- **Research:** Knowledge-enhanced LLMs, low-hallucination scientific writing agents, epistemic knowledge graphs, and retrieval-augmented generation
-- **Additional background:** 3D vision and generative reconstruction for cross-modal knowledge grounding
+- **My Research Focus:** Knowledge-Enhanced LLMs, Epistemic Graphs, Scientific Agents, RAG, AutoSurvey, 3D Generative Reconstruction
 
 ## News
 
